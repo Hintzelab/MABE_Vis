@@ -38,7 +38,7 @@ To make a pull request to the repository, follow these steps:
 
    For example, suppose you made a visualizer that draws something equivalent to MABE's BerryWorld, but is not compatible with the current version of MABE. Suppose further that you called it glBerryEaters, then your path would be `raw/World/BerryWorld/glBerryEaters`.
 
-2. Fork the MABE_Vis repository to your Github account.
+2. Fork [this repository](https://github.com/Hintzelab/MABE_Vis.git) to your Github account.
 
 3. Create the folder for your code using the path determined in step 1, place your code there and add it to git (e.g. by typing `git add -A`).
 
