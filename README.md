@@ -10,31 +10,33 @@ We accept all programs that can potentially be useful in visualizing any MABE-re
 * have any degree of compatibility with the current version of MABE;
 * have any amount of comments and documentation, including no comments or documentation whatsoever;
 * be incomplete and/or inoperative.
-In short, if you wrote a visualization code for any of the systems involved in MABE, you're welcome to submit. If your code wasn't developed in the context of MABE, but involved any systems that MABE supports (including modules available from [MABE_extras](https://github.com/Hintzelab/MABE_extras) and external forks), you're welcome to submit. For example, if you wrote a visualizer for neural networks or Markov before MABE was developed and would like to make the results of your labor useful to the MABE user and developer communities, your contribution is welcome
+
+In short, if you wrote a visualization code for any of the systems involved in MABE, you're welcome to submit. If your code wasn't developed in the context of MABE, but involved any systems that MABE supports (including modules available from [MABE_extras](https://github.com/Hintzelab/MABE_extras) and external forks), you're welcome to submit.
 
 Depending on the type the code you submit, it can be reused or used as a starting point or as a guideline for some new visualization tool for MABE.
 
-There are two ways to submit:
+## Contributing
+
+There are two ways to contribute:
+
 1. Submit your code directly to the repository through a pull request (see the instructions below).
 2. Email your code to `abernats at uvm.edu` and I'll take care of it.
 Regardless of how you submit, any supplementary comments and/or instructions for the code are welcome. If your code requires MABE to be modified to work, please include the changes (the changed files or a patch) if you have them available.
-
-## Contributing
 
 To make a pull request to the repository, follow these steps:
 
 1. Note the path where your code should be stored : `<codeType>/<mabeModulePath>/<visualizationName>`.
 
-  `codeType` is determined as follows:
-  - if your code is compatible with the stable version of MABE and thoroughly tested, it should be classified as *stable*.
-  - if your code is compatible with MABE, but not in its stable version and/or is not tested much, it is *experimental*.
-  - in all other cases the code is *raw*.
+   `codeType` is determined as follows:
+   - if your code is compatible with the stable version of MABE and thoroughly tested, it should be classified as *stable*.
+   - if your code is compatible with MABE, but not in its stable version and/or is not tested much, it is *experimental*.
+   - in all other cases the code is *raw*.
 
-  `mabeModulePath` is the path in the folder hierarchy of [the stable MABE version](https://github.com/Hintzelab/MABE) to where your module normally resides.
+   `mabeModulePath` is the path in the folder hierarchy of [the stable MABE version](https://github.com/Hintzelab/MABE) to where your module normally resides.
 
-  `visualizationName` is the name of your code.
+   `visualizationName` is the name of your code.
 
-  For example, suppose you made a visualizer that draws something equivalent to MABE's BerryWorld, but is not compatible with the current version of MABE. Suppose further that you called it glBerryEaters, then your path would be `raw/World/BerryWorld/glBerryEaters`.
+   For example, suppose you made a visualizer that draws something equivalent to MABE's BerryWorld, but is not compatible with the current version of MABE. Suppose further that you called it glBerryEaters, then your path would be `raw/World/BerryWorld/glBerryEaters`.
 
 2. Fork the MABE_Vis repository to your Github account.
 
