@@ -11,7 +11,7 @@ We accept all programs that can potentially be useful in visualizing any MABE-re
 * have any amount of comments and documentation, including no comments or documentation whatsoever;
 * be incomplete and/or inoperative.
 
-In short, if you wrote a visualization code for any of the systems involved in MABE, you're welcome to submit. If your code wasn't developed in the context of MABE, but involved any systems that MABE supports (including modules available from [MABE_extras](https://github.com/Hintzelab/MABE_extras) and external forks), you're welcome to submit.
+In short, if you wrote a visualization code for any of the systems involved in MABE, you're welcome to submit it. If your code wasn't developed in the context of MABE, but involved any systems that MABE supports (including modules available from [MABE_extras](https://github.com/Hintzelab/MABE_extras) and external forks), you're still welcome to submit it.
 
 Depending on the type the code you submit, it can be reused or used as a starting point or as a guideline for some new visualization tool for MABE.
 
