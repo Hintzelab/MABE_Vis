@@ -21,6 +21,7 @@ There are two ways to contribute:
 
 1. Submit your code directly to the repository through a pull request (see the instructions below).
 2. Email your code to `abernats at uvm.edu` and I'll take care of it.
+
 Regardless of how you submit, any supplementary comments and/or instructions for the code are welcome. If your code requires MABE to be modified to work, please include the changes (the changed files or a patch) if you have them available.
 
 To make a pull request to the repository, follow these steps:
